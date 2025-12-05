@@ -73,7 +73,17 @@ Returns a greeting message with timestamp.
 
 ## Building for Production
 
-### Backend
+### Docker (Recommended for Deployment)
+
+Build and run with Docker:
+```bash
+docker build -t hello-world-fullstack .
+docker run -p 3000:3000 hello-world-fullstack
+```
+
+### Manual Build
+
+#### Backend
 
 The backend runs directly from source:
 ```bash
@@ -81,7 +91,7 @@ cd backend
 npm start
 ```
 
-### Frontend
+#### Frontend
 
 Build optimised production bundle:
 ```bash
@@ -89,6 +99,10 @@ cd frontend
 npm run build
 npm run preview
 ```
+
+## Deployment
+
+For detailed deployment instructions to Railway, Render, or other platforms, see [DEPLOYMENT.md](DEPLOYMENT.md).
 
 ## Environment Variables
 
