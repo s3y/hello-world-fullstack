@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Hello World Full-Stack Application</h1>
+        <h1>Hello World Full-Stack Application - preview edition!</h1>
       </header>
       <main>
         <MessageDisplay />
