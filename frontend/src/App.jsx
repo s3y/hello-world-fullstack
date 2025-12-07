@@ -9,6 +9,7 @@ function App() {
       </header>
       <main>
         <MessageDisplay />
+        <p>This is a simple full-stack application using React for the frontend. to test the preview deployments</p>
       </main>
     </div>
   );
